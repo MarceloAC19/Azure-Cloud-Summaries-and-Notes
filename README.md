@@ -1,55 +1,55 @@
-# Resumos-e-anota-es-sobre-Azure-Cloud
-Feito para bootcamp da DIO
+# Summaries-and-notes-on-Azure-Cloud
+*Made for a DIO bootcamp*
+
 # Cloud Computing
 
-## O que é o Cloud?
-Serviço baseado na utilização de servidores para armazenamento, processamento de dados, redes e outras funcionalidades. Esses servidores podem ser públicos, privados ou híbridos.
+## What is the Cloud?
+A service based on the use of servers for storage, data processing, networking, and other functionalities. These servers can be public, private, or hybrid.
 
-## Tipos de Cloud (Nuvem)
-### • Nuvem Privada
-Trata-se de um ambiente criado no próprio datacenter da empresa, operando de forma independente e exclusiva.  
-**Vantagens:** Controle total dos dados e segurança.  
-**Desvantagem:** A empresa é totalmente responsável pela manutenção e atualização dos hardwares.
+## Types of Cloud
+### • Private Cloud
+This is an environment created in the company's own datacenter, operating independently and exclusively.
+**Advantages:** Complete control over data and security.
+**Disadvantage:** The company is fully responsible for the maintenance and updating of hardware.
 
-### • Nuvem Pública
-Trata-se de ambientes criados para atender às necessidades de empresas e usuários diversos, pertencendo a provedores de serviços de nuvem.  
-**Vantagens:** Facilidade na adição e remoção de aplicativos, sem custo de montagem de servidor e pagamento baseado apenas nas ferramentas utilizadas.  
-**Desvantagem:** Dependência total de terceiros.
+### • Public Cloud
+These are environments created to meet the needs of various companies and users, belonging to cloud service providers.
+**Advantages:** Ease of adding and removing applications, no server setup costs, and payment based only on the tools used.
+**Disadvantage:** Complete dependency on third parties.
 
-### • Nuvem Híbrida
-Trata-se da combinação dos dois tipos de nuvem, tornando o armazenamento de informações mais flexível e facilitando o gerenciamento de dados sensíveis.  
-**Vantagens:** Flexibilidade de armazenamento, alto controle de informações e segurança.  
-**Desvantagens:** Complexidade de gerenciamento.
+### • Hybrid Cloud
+This is a combination of the two cloud types, making information storage more flexible and facilitating the management of sensitive data.
+**Advantages:** Storage flexibility, high control over information, and security.
+**Disadvantages:** Management complexity.
 
-## Despesas
+## Expenses
 ### • CapEx
-Trata-se de despesas de capital, relacionadas à infraestrutura física na montagem do servidor. Os gastos diminuem com o tempo.
+This refers to capital expenditures, related to the physical infrastructure for server setup. The costs decrease over time.
 
 ### • OpEx
-Trata-se de despesas operacionais, como produtos e serviços necessários para a hospedagem de servidores. A cobrança é imediata.
+This refers to operational expenditures, such as products and services necessary for server hosting. Billing is immediate.
 
-## Benefícios da Nuvem
-### • Alta disponibilidade
-Trata-se da garantia de disponibilização do serviço independentemente de imprevistos. O Microsoft Azure se enquadra nesta característica, pois garante tempo de atividade conforme o serviço aplicado, por meio das SLAs (Contratos de Nível de Serviço).
+## Benefits of the Cloud
+### • High Availability
+This is the guarantee that the service will be available regardless of unforeseen events. Microsoft Azure fits this characteristic, as it guarantees uptime according to the applied service through SLAs (Service Level Agreements).
 
-### • Escalabilidade
-Trata-se dos ajustes necessários para o atendimento da demanda, possibilitando o aumento dos recursos para lidar com o crescimento. Se a demanda diminuir, também é possível reduzir os recursos, uma vez que o pagamento é baseado no consumo em servidores públicos.
+### • Scalability
+This refers to the necessary adjustments to meet demand, allowing for an increase in resources to handle growth. If demand decreases, it is also possible to reduce resources, since payment is based on consumption in public servers.
 
-### • Elasticidade
-Trata-se da expansão de recursos de forma abrupta para cobrir uma demanda alta apenas por um período específico de tempo. Assim que a demanda diminuir, os recursos adicionais serão removidos.
+### • Elasticity
+This refers to the abrupt expansion of resources to cover high demand for only a specific period. As soon as the demand decreases, the additional resources are removed.
 
-### • Confiabilidade
-Em consequência de seu design descentralizado, a nuvem se torna uma infraestrutura confiável e resiliente. É possível implementar recursos em várias regiões do planeta, garantindo a segurança e continuidade dos serviços, mesmo em caso de falha em uma região.
+### • Reliability
+As a result of its decentralized design, the cloud becomes a reliable and resilient infrastructure. It is possible to deploy resources in various regions around the planet, ensuring the security and continuity of services, even in the event of a failure in one region.
 
-### • Previsibilidade
-Trata-se da possibilidade de antecipação de desempenho e custos, garantindo estabilidade nos serviços prestados e proporcionando um melhor planejamento dos recursos utilizados. O Microsoft Azure Well-Architected Framework fornece diretrizes para otimizar o desempenho e os gastos, garantindo que os serviços sejam entregues de forma eficiente e dentro do orçamento planejado.
+### • Predictability
+This is the ability to forecast performance and costs, ensuring stability in the services provided and allowing for better planning of the resources used. The Microsoft Azure Well-Architected Framework provides guidelines to optimize performance and spending, ensuring that services are delivered efficiently and within the planned budget.
 
-### • Segurança
-A nuvem oferece ferramentas que permitem maior controle e proteção sobre os recursos. A segurança segue um modelo de responsabilidade compartilhada, onde o provedor garante a segurança da infraestrutura física e das redes, enquanto o cliente deve configurar corretamente políticas de segurança, gerenciamento de identidade e controle de acesso.
+### • Security
+The cloud offers tools that allow for greater control and protection over resources. Security follows a shared responsibility model, where the provider ensures the security of the physical infrastructure and networks, while the customer must correctly configure security policies, identity management, and access control.
 
-### • Governança
-Trata-se da aplicação de práticas de auditoria e conformidade para garantir que os recursos sigam padrões corporativos. A governança envolve monitoramento contínuo para garantir conformidade com normas regulatórias e políticas internas. Além disso, ferramentas de gerenciamento permitem a automação da aplicação de patches e atualizações, garantindo que os sistemas estejam sempre protegidos contra vulnerabilidades.
+### • Governance
+This refers to the application of auditing and compliance practices to ensure that resources follow corporate standards. Governance involves continuous monitoring to ensure compliance with regulatory standards and internal policies. Additionally, management tools allow for the automation of applying patches and updates, ensuring systems are always protected against vulnerabilities.
 
-### • Gerenciabilidade
-Trata-se da capacidade de gerenciamento eficiente dos recursos na nuvem. Isso possibilita desde escalonamento automático da implantação de recursos até a administração por meio de diferentes interfaces, como portal web, CLI, APIs e PowerShell. Ferramentas como Azure Monitor e Azure Automation ajudam a prever necessidades futuras e aplicar medidas proativas para garantir eficiência operacional.
-
+### • Manageability
+This refers to the ability to efficiently manage resources in the cloud. This allows for everything from automatic scaling of resource deployment to administration through different interfaces, such as a web portal, CLI, APIs, and PowerShell. Tools like Azure Monitor and Azure Automation help predict future needs and apply proactive measures to ensure operational efficiency.
